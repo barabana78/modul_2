@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@font-face {
+  font-family: GothamMedium;
+  src: url("../fonts/Gotham Medium Regular/Gotham Medium Regular.ttf");
+}
+@font-face {
+  font-family: gothambold;
+  src: url("../fonts/gothambold/gothambold1.ttf");
+}
+@font-face {
+  font-family: GothamBook;
+  src: url("../fonts/GothamBook/GothamBook.ttf");
+}
+
+body * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: #ffffff;
+}
+body {
+  font-family: GothamBook, Arial, sans-serif;
+  margin: 0 auto;
+  max-width: 1600px;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: auto;
+  max-width: 100%;
+}
+.wrapper {
+  margin: 0 auto;
+  max-width: 1170px;
+}
+h1, h2, h3 {
+  text-align: center;
+  text-transform: uppercase;
+}
+h2 {
+  font-family: GothamMedium, Arial, sans-serif;
+  font-size: 44px;
+}
+h4 {
+  font-family: gothambold, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 34px;
+}
+ .blue-section h2::before,
+ .gallery h2::before,
+ .get-in-touch h2::before {
+   content: '';
+   width: 100px;
+   height: 2px;
+   background-color: #ffffff;
+   display: block;
+   margin: 0 auto;
+   margin-bottom: 35px;
+ }
+/*HEADER*/
+header {
+  height: 100vh;
+  background: #689efc url("../images/bg-header.jpg") no-repeat center center;
+}
+.logo-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 0 0 0;
+}
+.logo {
+  padding-right: 200px;
+}
+.logo a {
+  display: block;
+}
+.nav-header {
+}
+.nav-header ul {
+  display: flex;
+  list-style: circle;
+}
+.nav-header ul li {
+  font-family: GothamBook, Arial, sans-serif;
+  font-size: 14px;
+  margin-left: 50px;
+  text-transform: uppercase;
+}
+.nav-header ul li:hover {
+   list-style: disc;
+ }
+.social {
+  display: flex;
+}
+.social a {
+  margin-left: 20px;
+  width: 40px;
+  height: 40px;
+}
+
+.info-header {
+  padding-top: 160px;
+  position: relative;
+}
+.info-header h1 {
+  font-family: gothambold, Arial, sans-serif;
+  font-size: 80px;
+  letter-spacing: 0.05em;
+  margin-bottom: 30px;
+}
+.info-header h3 {
+  font-family: gothambold, Arial, sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.3em;
+}
+.scroll {
+  position: absolute;
+  left: 50%;
+  top: 430px;
+}
+      /*GALLERY*/
+.gallery {
+  padding: 110px 0 142px 0;
+}
+.gallery h2 {
+  color: #000000;
+  margin-bottom: 100px;
+}
+.gallery h2::before {
+ background-color: #000000;
+}
+.gallery-container {
+  margin-bottom: 60px;
+}
+.row {
+  overflow: hidden;
+}
+.cell {
+  float: left;
+  padding: 0 5px;
+}
+.cell.size-50 {
+  width: 50%;
+}
+.no-padding {
+  padding: 0;
+}
+.padding-bottom {
+  padding-bottom: 10px;
+}
+.link-btn {
+  font-family: GothamBook, Arial, sans-serif;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  text-transform: uppercase;
+  color: #000000;
+  border: #000000 solid 1px;
+  margin: 0 auto;
+}
+      /*/GALLERY*/
+
+/*SLIDER*/
+.blue-section {
+  background: #4393dd url("../images/BgNews.jpg") no-repeat center center;
+  padding: 140px 0;
+}
+
+.blue-section h2 {
+  margin-bottom: 105px;
+}
+.slider {
+  padding-bottom: 50px;
+  position: relative;
+}
+.row-prev,
+.row-next {
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+}
+.row-prev {
+  left: -90px;
+}
+.row-next {
+  right: -90px;
+}
+/*SLIDER ITEM*/
+.slider-items {
+  width: 370px;
+  height: 520px;
+  background-color: transparent;
+}
+.slider-items-info {
+  width: 370px;
+  padding: 26px 18px 28px 20px;
+  line-height: 25px;
+  background-color: #ffffff;
+}
+.slider-items h4 {
+  text-transform: uppercase;
+  color: #000000;
+}
+.slider-items p {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+}
+.slider-items-personal-info {
+  display: flex;
+  align-items: center;
+  padding-top: 35px;
+}
+.slider-items-personal-info img {
+  border-radius: 50%;
+  margin-right: 10px;
+  color: #000000;
+}
+.slider-items-personal-info p {
+  font-family: GothamBook, Arial, sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.slider-items-personal-info span {
+  font-family: GothamBook, Arial, sans-serif;
+  font-size: 14px;
+  color: blue;
+  text-transform: none;
+}
+/*/SLIDER ITEM*/
+
+.slick-dots {
+  bottom: 5px;
+}
+.slick-dots .slick-active {
+  background-color: #ffffff;/*ДОБАВЛЕНО*/
+  border-radius: 50%;
+}
+/*MAP*/
+#map {
+  min-height: 700px;
+  width: 100%;
+  background-color: gray;
+}
+.metadata-marker {
+  display: none;
+}
+/*стили для маркера*/
+.title {
+  font-size: 20px;
+  color: #48b5e9;/*background для маркера*/
+}
+/*F O O T E R*/
