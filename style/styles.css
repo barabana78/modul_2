@@ -63,7 +63,8 @@ header {
   height: 100vh;
   background: #689efc url("../images/bg-header.jpg") no-repeat center center;
 }
-.logo-nav {
+.logo-nav,
+.logo-social {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -326,9 +327,24 @@ header {
   margin-top: 31px;
   float: right;
 }
+.form-cont button:hover {
+  background-color: lightgrey;
+  cursor: pointer;
+}
 
 footer {
   position: relative;
   background: #57b3ff url("../images/bgFooter.jpg") no-repeat center center;
-  padding: 204px 0 207px 0;
+  padding: 204px 0 140px 0;
+}
+.logo-social {
+  padding-right: 200px;
+  padding-left: 200px;
+}
+.copyright {
+  padding: 45px 0 0 200px;
+}
+.copyright span {
+  font-family: GothamBook, Arial, sans-serif;
+  font-size: 14px;
 }
