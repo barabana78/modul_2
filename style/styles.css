@@ -83,7 +83,6 @@ header {
   list-style: circle;
 }
 .nav-header ul li {
-  font-family: GothamBook, Arial, sans-serif;
   font-size: 14px;
   margin-left: 50px;
   text-transform: uppercase;
@@ -151,7 +150,6 @@ header {
   padding-bottom: 10px;
 }
 .link-btn {
-  font-family: GothamBook, Arial, sans-serif;
   font-size: 14px;
   display: flex;
   justify-content: center;
@@ -163,6 +161,7 @@ header {
   border: #000000 solid 1px;
   margin: 0 auto;
 }
+.link-btn:hover {background-color: lightgrey}
 /*/GALLERY*/
 
 /*SLIDER*/
@@ -263,7 +262,6 @@ header {
   left: 0;
   right: 0;
   margin: 0 auto;
-  color: #000000;
   width: 770px;
   height: 457px;
   background-color: #ffffff;
@@ -284,7 +282,6 @@ header {
   list-style: none;
 }
 .get-in-touch ul li {
-  font-family: GothamBook, Arial, sans-serif;
   font-size: 18px;
   line-height: 50px;
   color: #000000;
@@ -302,7 +299,6 @@ header {
   display: block;
 }
 .get-in-touch input {
-  font-family: GothamBook, Arial, sans-serif;
   font-size: 18px;
   color: #000000;
   opacity: 0.5;
@@ -319,7 +315,6 @@ header {
 .form-cont button {
   width: 140px;
   height: 50px;
-  font-family: GothamBook, Arial, sans-serif;
   font-size: 14px;
   color: #000000;
   text-transform: uppercase;
@@ -345,6 +340,5 @@ footer {
   padding: 45px 0 0 200px;
 }
 .copyright span {
-  font-family: GothamBook, Arial, sans-serif;
   font-size: 14px;
 }
