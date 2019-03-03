@@ -47,17 +47,17 @@ h4 {
   font-size: 20px;
   line-height: 34px;
 }
- .blue-section h2::before,
- .gallery h2::before,
- .get-in-touch h2::before {
-   content: '';
-   width: 100px;
-   height: 2px;
-   background-color: #ffffff;
-   display: block;
-   margin: 0 auto;
-   margin-bottom: 35px;
- }
+.blue-section h2::before,
+.gallery h2::before,
+.get-in-touch h2::before {
+  content: '';
+  width: 100px;
+  height: 2px;
+  background-color: #ffffff;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
 /*HEADER*/
 header {
   height: 100vh;
@@ -88,8 +88,8 @@ header {
   text-transform: uppercase;
 }
 .nav-header ul li:hover {
-   list-style: disc;
- }
+  list-style: disc;
+}
 .social {
   display: flex;
 }
@@ -119,7 +119,7 @@ header {
   left: 50%;
   top: 430px;
 }
-      /*GALLERY*/
+/*GALLERY*/
 .gallery {
   padding: 110px 0 142px 0;
 }
@@ -128,7 +128,7 @@ header {
   margin-bottom: 100px;
 }
 .gallery h2::before {
- background-color: #000000;
+  background-color: #000000;
 }
 .gallery-container {
   margin-bottom: 60px;
@@ -162,7 +162,7 @@ header {
   border: #000000 solid 1px;
   margin: 0 auto;
 }
-      /*/GALLERY*/
+/*/GALLERY*/
 
 /*SLIDER*/
 .blue-section {
@@ -253,6 +253,82 @@ header {
 /*стили для маркера*/
 .title {
   font-size: 20px;
-  color: #48b5e9;/*background для маркера*/
+  color: #48b5e9;/*цвет для маркера*/
 }
 /*F O O T E R*/
+.get-in-touch {
+  position: absolute;
+  top:-50%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  color: #000000;
+  width: 770px;
+  height: 457px;
+  background-color: #ffffff;
+  padding: 60px 0 78px 59px;
+  overflow: hidden;
+}
+.get-in-touch h2::before {
+  background-color: #000000;
+}
+.get-in-touch h2 {
+  color: #000000;
+  margin-bottom: 52px;
+}.requisites {
+   float: left;
+   padding-right: 30px;
+ }
+.get-in-touch ul {
+  list-style: none;
+}
+.get-in-touch ul li {
+  font-family: GothamBook, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 50px;
+  color: #000000;
+}
+.get-in-touch ul li i {
+  color: #000000;
+}
+.form-cont {
+  float: left;
+}
+.form-cont form {
+  overflow: hidden;
+}
+.get-in-touch {
+  display: block;
+}
+.get-in-touch input {
+  font-family: GothamBook, Arial, sans-serif;
+  font-size: 18px;
+  color: #000000;
+  opacity: 0.5;
+  display: block;
+  width: 310px;
+  height: 60px;
+  border: none;
+  border-bottom: 2px solid grey;
+}
+.get-in-touch input:hover,
+.get-in-touch input:active {
+  opacity: 1;
+}
+.form-cont button {
+  width: 140px;
+  height: 50px;
+  font-family: GothamBook, Arial, sans-serif;
+  font-size: 14px;
+  color: #000000;
+  text-transform: uppercase;
+  background-color: transparent;
+  margin-top: 31px;
+  float: right;
+}
+
+footer {
+  position: relative;
+  background: #57b3ff url("../images/bgFooter.jpg") no-repeat center center;
+  padding: 204px 0 207px 0;
+}
