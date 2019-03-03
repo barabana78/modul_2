@@ -55,9 +55,7 @@ $(document).ready(function(){
 //анимируем переход на расстояние - top за 1500 мс
         $('body,html').animate({scrollTop: top}, 1500);
     });
-});
 
-$(document).ready(function(){
     $("#menu2").on("click","a", function (event) {
 //отменяем стандартную обработку нажатия по ссылке
         event.preventDefault();
